@@ -1,0 +1,8 @@
+<RCC>
+    <qresource prefix="/icon">
+        <file>rss_orb_2121.ico</file>
+    </qresource>
+    <qresource prefix="/music">
+        <file>sirena.wav</file>
+    </qresource>
+</RCC>

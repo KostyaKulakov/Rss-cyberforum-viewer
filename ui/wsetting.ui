@@ -1,0 +1,2653 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>WSetting</class>
+ <widget class="QDialog" name="WSetting">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>640</width>
+    <height>479</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Настройки</string>
+  </property>
+  <property name="windowIcon">
+   <iconset resource="../resource/res.qrc">
+    <normaloff>:/icon/rss_orb_2121.ico</normaloff>:/icon/rss_orb_2121.ico</iconset>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout_4">
+   <item>
+    <layout class="QHBoxLayout" name="horizontalLayout_4">
+     <item>
+      <layout class="QVBoxLayout" name="verticalLayout">
+       <item>
+        <widget class="QLabel" name="label_2">
+         <property name="text">
+          <string>Список разделов</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QListWidget" name="catlist">
+         <item>
+          <property name="text">
+           <string>Программирование мобильных систем</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Программирование iOS/iPhone</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Программирование Android</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>PhoneGap</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Objective-C</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Программирование Windows Phone</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>C++</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>С++ для начинающих</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>C++ и сети</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>C++: COM &amp; OLE</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Visual C++ и базы данных</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>C++ Builder и базы данных</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Boost C++</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Qt</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>C++ для экспертов</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>C++ и WinAPI</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Visual C++</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>C++ Builder</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>C++ Builder: FireMonkey</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Кроссплатформенная разработка</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>С++ под Linux</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>C (Си)</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>C для начинающих</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>С под Linux</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>.NET</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>C# .NET</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>C# Windows Forms</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>C# под Web, ASP.NET</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>C#: WPF и Silverlight</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Visual Basic .NET</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>C++/CLI</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>LINQ</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Visual Studio</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>C# для начинающих</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>C# и базы данных, ADO.NET</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>C# под Web, ASP.NET MVC</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>C#: Веб-сервисы и WCF</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>F# .NET</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>C++/CLI Windows Forms</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Microsoft XNA</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Mono</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Java</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Java GUI &amp; JavaFX</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Java SE (J2SE)</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Java IDE</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Java и базы данных</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Java ME (J2ME)</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Java EE (J2EE)</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Java и сети</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Scala</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Программирование 1С</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Pascal (Паскаль)</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Turbo Pascal</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Free Pascal</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Pascal ABC</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>PascalABC.NET</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Delphi</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Delphi для начинающих</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Delphi: графика, звук, видео</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Delphi и WinAPI</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Delphi: FireMonkey</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Delphi и базы данных</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Delphi и сети</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Lazarus</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Python</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Django</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Python: Графика</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Basic</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>QBasic</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>VBA</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Visual Basic</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Pure Basic</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Perl</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Perl: разработка для Web</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Prolog</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Базы данных</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>SQL Server</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>MS Access</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>MySQL</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Visual FoxPro</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>MongoDB</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Oracle</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Firebird/InterBase</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>PostgreSQL</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>OLAP, MDX</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Программирование игр и графики</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>OpenGL</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>3D моделирование</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Cocos2d-x</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>DirectX</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Unity, Unity3D</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Низкоуровневое программирование</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Программирование драйверов</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Assembler для начинающих</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Assembler: Windows/protected mode</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Assembler: i8080/8085/KP580</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>ОС на Assembler</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Assembler, MASM, TASM</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Assembler для экспертов</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Assembler: DOS/Real Mode/16-bits</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Assembler: математика, вычисления</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Assembler: статьи, проба пера</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Теория и практика программирования</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Алгоритмы</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Разработка и тестирование</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>WinRT</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>ООП и паттерны</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Системы контроля версий</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Криптография</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Моделирование</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>UML</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>AnyLogic</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>GPSS</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>ERP и автоматизированные системы</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Microsoft Dynamics NAV (Navision)</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Microsoft Dynamics AX (Axapta)</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>SAP</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Другие языки программирования</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Haskell</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Cobol</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Lua</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>LabVIEW, язык G</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Fortran</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Lisp</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Go</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>HTML, CSS</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>JavaScript</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>jQuery</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>ExtJS</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Node.js</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>JavaScript: регулярные выражения</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Prototype</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Flash</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>MXML, Flex</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>ActionScript</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>PHP</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>PHP для начинающих</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>PHP и сети</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>PHP: Регулярные выражения</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>PHP и базы данных</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>PHP и ООП</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>PHP: Фреймворки</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Ruby</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Ruby on Rails</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Web-мастеринг</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Web-дизайн</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>XML/XSL</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Интернет-банкинг, эл. деньги</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Готовые движки (CMS и форумы)</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Выбор CMS</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Drupal</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>VBulletin</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>phpBB</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>1С Битрикс</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>NetCat</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>HostCMS</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Joomla</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>WordPress</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Invision Power Board (IPB)</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>DataLife Engine (DLE)</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>UMI CMS</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>MODx CMS/CMF</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Раскрутка сайтов, SEO</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Yandex</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Google</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Контекстная реклама</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Доменные имена</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Web-серверы</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Apache</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>IIS</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>nginx</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Denwer, Open Server, XAMPP</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Хостинг</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Выбор хостинга</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Безопасность сайтов и серверов</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Бесплатный хостинг</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Софт для Windows</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Системный софт</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Софт: Антивирусы и файрволы</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Софт: Графические редакторы</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>CorelDRAW</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Софт: Текстовые редакторы</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>OpenOffice/LibreOffice</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Софт: Интернет и сеть, браузеры</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Софт: Аудио, звук</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Photoshop</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Софт: Видео</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Эмуляторы и виртуальные машины</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>IBM Lotus</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Администрирование Lotus</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Программирование Lotus</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Microsoft Office</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>MS Office Word</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>MS Office Outlook</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>MS Office Visio</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>MS Office Excel</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>MS Office Powerpoint</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>MS Office Project</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Софт для Linux</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>САПР</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>AutoCAD</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Драйверы</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Драйверы для ноутбуков</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Драйверы для чипсетов</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Драйверы для сетевых карт</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Драйверы для видеокарт</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Драйверы для звуковых карт</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Драйверы для принтеров</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Компьютерные игры</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>RPG/Ролевые игры</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Стратегии</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Спортивные игры</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>MMORPG/Online игры</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Action/FPS игры</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Приключения, квесты</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Симуляторы, гонки</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Игровые консоли</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>О форуме и сайтах</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Наши встречи</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>CyberGuru.ru</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Конкурсы</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Голосования</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Общие тематические вопросы</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Выбор конфигурации компьютера</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Выбор компьютера до 15 000 р.</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Выбор компьютера до 50 000 р.</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Апгрейд компьютера</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Выбор компьютера до 30 000 р.</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Выбор компьютера свыше 50 000 р.</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Оценка б/у комплектующих, ПК</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Компьютерное железо</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Процессоры</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Видеокарты</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Жесткие диски</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>CD, DVD, Blu-ray (BD)</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Внешние жесткие диски</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Звук и акустические системы</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Корпуса</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Мониторы</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>BIOS</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Материнские (системные) платы</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Носители информации</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>SSD</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Flash-накопители</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Оперативная память</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Охлаждение</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Блоки питания, UPS (ИБП)</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Серверы и серверное железо</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Моддинг</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Ноутбуки, нетбуки, ультрабуки</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Выбор ноутбука</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Апгрейд ноутбуков</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Ремонт ноутбуков</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Периферийные устройства</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Принтеры</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Веб-камеры</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Компьютерные мыши</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Сканеры</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Клавиатуры</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Windows</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Windows XP</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Windows 7</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Администрирование Windows</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Batch (CMD/BAT)</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>VBScript/JScript/WSH/WMI/HTA</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>BSOD (Синий экран смерти)</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Windows Vista</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Windows 8, 8.1</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Windows Server</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>PowerShell</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>AutoIt</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Linux</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Железо в Linux</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Mandriva, Mandrake Linux</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>RedHat, Fedora, CentOS, ASP Linux</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Novell SUSE Linux, Open SUSE</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>SlackWare Linux, ZenWalk</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Arch Linux</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Shell, Bash</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Ubuntu, Mint Linux</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Chrome OS</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Debian GNU/Linux</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Gentoo, Sabayon Linux</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>ALT Linux</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Другие дистрибутивы</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Мобильные ОС</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Apple iOS</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Windows Phone</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Google Android</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Symbian</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>*NIX</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>FreeBSD</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Mac OS</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Solaris</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Сети и средства коммуникаций</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Сетевое оборудование</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Беспроводные сети</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Cisco</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Телефония, офисные АТС</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Кабельные сети</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Спутниковая связь и интернет</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Juniper</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Сети: FAQ и инструкции</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Компьютерная безопасность</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Лечение компьютерных вирусов</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Безопасность в интернете</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>FAQ по лечению вирусов</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Мобильная техника</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Мобильные телефоны, смартфоны</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Софт для мобильников и КПК</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Планшеты, ebook</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Apple iPhone</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Навигаторы и видеорегистраторы</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Новости High-Tech</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Новости железа</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Новости науки</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Новости софта</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Новости интернета</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Электроника и радиотехника</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Микроконтроллеры</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Цифровая обработка сигналов</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Микропроцессоры</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Электротехника, ТОЭ</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Блоки питания и аккумуляторы</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Жучки</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Роботехника и умный дом</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Измерительная техника</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Программируемая логика: ПЛИС, ПАИС</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Электротехнические САПР и PCB-дизайн</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Автомобильная электроника</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Аудио, усилители звука</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Радио: приемники, передатчики, антенны</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Лазеры, свет, LED</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Arduino: теория и практика</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Электродвигатели</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>АСУ ТП, промэлектроника</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>КИП, датчики</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>SCADA</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Контроллеры PLC</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Бытовая техника</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Кондиционеры</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Кофемашины, кофеварки</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Стиральные машины</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Водонагреватели</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Кухонные вытяжки</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Посудомоечные машины</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Холодильники</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Микроволновые печи, СВЧ</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Электрочайники, термопоты</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Пылесосы</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Обогреватели, тепловые завесы</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Швейное оборудование</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Бытовая электроника</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Цифровые фотокамеры</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Цифровые видеокамеры</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>DVD и Blu-ray плееры</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Домашняя аудиотехника</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Усилители и ресиверы</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Домашняя видеотехника</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Телевизоры, плазменные панели</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Домашние кинотеатры</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Акустические системы</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Наушники</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Математика</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Дифференциальные уравнения</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Теория автоматов</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Геометрия</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Алгебра, теория чисел</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Мат. логика и множества</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Методы оптимизации</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Дискретная математика</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Математический анализ</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Статистика, теория вероятностей</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Численные методы</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>ТФКП и операционное исчисление</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Комбинаторика</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Математические программы </string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>MathCAD</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Simulink</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Maple</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Mathematica</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Matlab</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Scilab</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>STATISTICA</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Физика</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Механика</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Термодинамика и МКТ</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>СТО (релятивистская механика)</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Колебания и волны</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Электричество и магнетизм</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Оптика</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Квантовая и атомная физика</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Специальные разделы физики</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Другие науки и дисциплины</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Информатика</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>История</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Химия</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Экономика</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Астрономия</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Иностранные языки</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Управление проектами</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Работа</string>
+          </property>
+          <property name="foreground">
+           <brush brushstyle="NoBrush">
+            <color alpha="255">
+             <red>0</red>
+             <green>170</green>
+             <blue>0</blue>
+            </color>
+           </brush>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Предложения работодателей</string>
+          </property>
+          <property name="foreground">
+           <brush brushstyle="NoBrush">
+            <color alpha="255">
+             <red>0</red>
+             <green>170</green>
+             <blue>0</blue>
+            </color>
+           </brush>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Работа за границей</string>
+          </property>
+          <property name="foreground">
+           <brush brushstyle="NoBrush">
+            <color alpha="255">
+             <red>0</red>
+             <green>170</green>
+             <blue>0</blue>
+            </color>
+           </brush>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Поиск работы</string>
+          </property>
+          <property name="foreground">
+           <brush brushstyle="NoBrush">
+            <color alpha="255">
+             <red>0</red>
+             <green>170</green>
+             <blue>0</blue>
+            </color>
+           </brush>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Shareware, распространение программ</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Фриланс</string>
+          </property>
+          <property name="foreground">
+           <brush brushstyle="NoBrush">
+            <color alpha="255">
+             <red>255</red>
+             <green>0</green>
+             <blue>0</blue>
+            </color>
+           </brush>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Предложения фрилансеров</string>
+          </property>
+          <property name="foreground">
+           <brush brushstyle="NoBrush">
+            <color alpha="255">
+             <red>255</red>
+             <green>0</green>
+             <blue>0</blue>
+            </color>
+           </brush>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Заказать сайт, веб-разработку, SEO</string>
+          </property>
+          <property name="foreground">
+           <brush brushstyle="NoBrush">
+            <color alpha="255">
+             <red>255</red>
+             <green>0</green>
+             <blue>0</blue>
+            </color>
+           </brush>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Заказать диплом, курсовую работу</string>
+          </property>
+          <property name="foreground">
+           <brush brushstyle="NoBrush">
+            <color alpha="255">
+             <red>255</red>
+             <green>0</green>
+             <blue>0</blue>
+            </color>
+           </brush>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Заказать услугу, обслуживание</string>
+          </property>
+          <property name="foreground">
+           <brush brushstyle="NoBrush">
+            <color alpha="255">
+             <red>255</red>
+             <green>0</green>
+             <blue>0</blue>
+            </color>
+           </brush>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Заказать работу в программе</string>
+          </property>
+          <property name="foreground">
+           <brush brushstyle="NoBrush">
+            <color alpha="255">
+             <red>255</red>
+             <green>0</green>
+             <blue>0</blue>
+            </color>
+           </brush>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Заказать программу</string>
+          </property>
+          <property name="foreground">
+           <brush brushstyle="NoBrush">
+            <color alpha="255">
+             <red>255</red>
+             <green>0</green>
+             <blue>0</blue>
+            </color>
+           </brush>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Решить задачу (по наукам)</string>
+          </property>
+          <property name="foreground">
+           <brush brushstyle="NoBrush">
+            <color alpha="255">
+             <red>255</red>
+             <green>0</green>
+             <blue>0</blue>
+            </color>
+           </brush>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Онлайн-помощь на экзамене</string>
+          </property>
+          <property name="foreground">
+           <brush brushstyle="NoBrush">
+            <color alpha="255">
+             <red>255</red>
+             <green>0</green>
+             <blue>0</blue>
+            </color>
+           </brush>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Заказать работу с железом, сетями</string>
+          </property>
+          <property name="foreground">
+           <brush brushstyle="NoBrush">
+            <color alpha="255">
+             <red>255</red>
+             <green>0</green>
+             <blue>0</blue>
+            </color>
+           </brush>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Образование, сертификация, конференции</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Истории успеха</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Проекты</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Бета-тестирование</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Оценка сайтов</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>FAQ для форума</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Обо всем!</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Социальные сети</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Политика</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Непризнанные теории, гипотезы</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Спорт</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Священные войны</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Авто, мото и все, что движется</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Отдых и развлечения</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Шутки юмора</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Праздники и поздравления</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Путешествия</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Игры разума</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Тесты и опросы</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Человек и общество</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Мужчина и Женщина</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>О здоровье</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Закон и право</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Семья и дети</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Психология и саморазвитие</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Культура и искусство</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Музыка</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Литература</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Фильмы и телевидение</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Изобразительное искусство</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Дом и хозяйство</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Кулинарные подвиги</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Кружок &quot;Умелые руки&quot;</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Живой уголок</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Зеленые друзья</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Барахолка</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Куплю</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Продам</string>
+          </property>
+         </item>
+        </widget>
+       </item>
+      </layout>
+     </item>
+     <item>
+      <layout class="QVBoxLayout" name="verticalLayout_3">
+       <item>
+        <spacer name="verticalSpacer_2">
+         <property name="orientation">
+          <enum>Qt::Vertical</enum>
+         </property>
+         <property name="sizeHint" stdset="0">
+          <size>
+           <width>20</width>
+           <height>40</height>
+          </size>
+         </property>
+        </spacer>
+       </item>
+       <item>
+        <widget class="QPushButton" name="addButton">
+         <property name="sizePolicy">
+          <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+           <horstretch>0</horstretch>
+           <verstretch>0</verstretch>
+          </sizepolicy>
+         </property>
+         <property name="minimumSize">
+          <size>
+           <width>31</width>
+           <height>23</height>
+          </size>
+         </property>
+         <property name="maximumSize">
+          <size>
+           <width>31</width>
+           <height>23</height>
+          </size>
+         </property>
+         <property name="text">
+          <string>+</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="removeButton">
+         <property name="sizePolicy">
+          <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+           <horstretch>0</horstretch>
+           <verstretch>0</verstretch>
+          </sizepolicy>
+         </property>
+         <property name="minimumSize">
+          <size>
+           <width>31</width>
+           <height>23</height>
+          </size>
+         </property>
+         <property name="maximumSize">
+          <size>
+           <width>31</width>
+           <height>23</height>
+          </size>
+         </property>
+         <property name="text">
+          <string>-</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <spacer name="verticalSpacer">
+         <property name="orientation">
+          <enum>Qt::Vertical</enum>
+         </property>
+         <property name="sizeHint" stdset="0">
+          <size>
+           <width>20</width>
+           <height>40</height>
+          </size>
+         </property>
+        </spacer>
+       </item>
+      </layout>
+     </item>
+     <item>
+      <layout class="QVBoxLayout" name="verticalLayout_2">
+       <item>
+        <widget class="QLabel" name="label_3">
+         <property name="text">
+          <string>Выборочное уведолмения по разделам</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QListWidget" name="onlinelist"/>
+       </item>
+      </layout>
+     </item>
+    </layout>
+   </item>
+   <item>
+    <widget class="QCheckBox" name="checkBox">
+     <property name="text">
+      <string>Звуковое уведомление</string>
+     </property>
+     <property name="checked">
+      <bool>false</bool>
+     </property>
+     <property name="tristate">
+      <bool>false</bool>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <layout class="QHBoxLayout" name="horizontalLayout_2">
+     <property name="topMargin">
+      <number>0</number>
+     </property>
+     <item>
+      <widget class="QLabel" name="label_4">
+       <property name="text">
+        <string>Интервал обновления</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QSpinBox" name="spinBox">
+       <property name="minimum">
+        <number>5</number>
+       </property>
+       <property name="maximum">
+        <number>999999999</number>
+       </property>
+       <property name="value">
+        <number>6</number>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="label_5">
+       <property name="text">
+        <string>сек.</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <spacer name="horizontalSpacer">
+       <property name="orientation">
+        <enum>Qt::Horizontal</enum>
+       </property>
+       <property name="sizeHint" stdset="0">
+        <size>
+         <width>40</width>
+         <height>20</height>
+        </size>
+       </property>
+      </spacer>
+     </item>
+    </layout>
+   </item>
+   <item>
+    <layout class="QHBoxLayout" name="horizontalLayout">
+     <item>
+      <widget class="QLabel" name="label">
+       <property name="text">
+        <string>RSS Url:</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLineEdit" name="lineEdit"/>
+     </item>
+    </layout>
+   </item>
+   <item>
+    <widget class="QDialogButtonBox" name="buttonBox">
+     <property name="orientation">
+      <enum>Qt::Horizontal</enum>
+     </property>
+     <property name="standardButtons">
+      <set>QDialogButtonBox::Cancel|QDialogButtonBox::Ok</set>
+     </property>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources>
+  <include location="../resource/res.qrc"/>
+ </resources>
+ <connections>
+  <connection>
+   <sender>buttonBox</sender>
+   <signal>accepted()</signal>
+   <receiver>WSetting</receiver>
+   <slot>accept()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>247</x>
+     <y>461</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>157</x>
+     <y>274</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>buttonBox</sender>
+   <signal>rejected()</signal>
+   <receiver>WSetting</receiver>
+   <slot>reject()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>315</x>
+     <y>461</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>286</x>
+     <y>274</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+</ui>
