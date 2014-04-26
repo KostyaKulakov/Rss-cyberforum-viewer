@@ -35,7 +35,7 @@ bool Xmlparser::parse(const QUrl &urlrss)
                 continue;
 
             if(xml.name() == "item")
-                itemparse(xml);
+                itemParse(xml);
         }
     }
 
@@ -54,22 +54,22 @@ bool Xmlparser::parse()
     return parse(this->urlrss);
 }
 
-void Xmlparser::seturlrss(const QUrl urlrss)
+void Xmlparser::setUrlRss(const QUrl urlrss)
 {
     this->urlrss = urlrss;
 }
 
-QUrl Xmlparser::geturlrss() const
+QUrl Xmlparser::getUrlRss() const
 {
     return this->urlrss;
 }
 
-QVector<Item> &Xmlparser::getitems()
+QVector<Item> &Xmlparser::getItems()
 {
     return this->items;
 }
 
-void Xmlparser::itemparse(QXmlStreamReader &xml)
+void Xmlparser::itemParse(QXmlStreamReader &xml)
 {
     Item newitem;
 

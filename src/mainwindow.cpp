@@ -13,7 +13,7 @@ MainWindow::MainWindow(QWidget *parent) :
 
     parser = new Xmlparser;
 
-    parser->seturlrss(QUrl(msettings->getUrlRss())); // Default
+    parser->setUrlRss(QUrl(msettings->getUrlRss())); // Default
 
     sound = new QSound(":/music/sirena.wav");
 
@@ -51,7 +51,7 @@ void MainWindow::updateTable()
     ui->tableWidget->clearContents();
     ui->tableWidget->setRowCount(0);
 
-    for(auto &item : (parser->getitems()))
+    for(auto &item : (parser->getItems()))
     {
        if((msettings->getAllowCategory().indexOf(item.category) != -1) || msettings->getAllowCategory().size() == 0)
        {
@@ -93,7 +93,7 @@ void MainWindow::updateTable()
 void MainWindow::updateTimer()
 {
     timer.setInterval(msettings->getInterval());
-    parser->seturlrss(QUrl(msettings->getUrlRss()));
+    parser->setUrlRss(QUrl(msettings->getUrlRss()));
     updateTable();
 }
 

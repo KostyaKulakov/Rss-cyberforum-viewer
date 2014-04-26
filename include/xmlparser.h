@@ -39,13 +39,13 @@ public:
     bool parse(const QUrl& urlrss);
     bool parse();
 
-    void seturlrss(const QUrl urlrss);
+    void setUrlRss(const QUrl urlrss);
 
-    QUrl geturlrss() const;
-    QVector<Item> &getitems();
+    QUrl getUrlRss() const;
+    QVector<Item> &getItems();
 
 private:
-    void itemparse(QXmlStreamReader& xml);
+    void itemParse(QXmlStreamReader& xml);
 
     QUrl urlrss;
     bool first_start = true;
